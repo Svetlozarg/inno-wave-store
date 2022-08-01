@@ -1,5 +1,6 @@
 import { useState } from "react";
 import dynamic from "next/dynamic";
+import Image from "next/image";
 
 import { storeFrontRequest } from "../utils/shopify";
 
@@ -42,10 +43,11 @@ export default function SingleProduct({ product, products }) {
       <div className="single-product-page-wrapper">
         {/* Single Product Left Side */}
         <div className="single-product-left">
-          <img
+          <Image
             src={product.images.edges[0].node.transformedSrc}
             alt=""
-            layout="fill"
+            width={600}
+            height={400}
           />
         </div>
         {/* Single Product Right Side */}
