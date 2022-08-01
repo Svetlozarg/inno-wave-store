@@ -1,3 +1,7 @@
+<h1>InnoWave Shopify Demo Store</h1>
+
+<p>A demo shopify store created with Next.JS / GraphQL / Storefront API</p>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
